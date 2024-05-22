@@ -1,6 +1,14 @@
 /* src/App.css */
 .App {
   text-align: center;
+  width: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+a{
+  display: none;
 }
 
 .App-header {

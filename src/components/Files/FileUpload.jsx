@@ -11,13 +11,12 @@ const FileUpload = () => {
   const [files, setFiles] = useState([]);
 
   return (
-    <div>
-      <div>File Upload</div>
+    <div >
       <FilePond
         files={files}
         onupdatefiles={setFiles}
         allowMultiple={true}
-        maxFiles={3}
+        maxFiles={5}
         name="files"
         labelIdle='Drag & Drop your files or <span class="filepond--label-action">Browse</span>'
       />
